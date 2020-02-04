@@ -1,0 +1,36 @@
+﻿
+GET http://localhost:5000/api/interviewees
+content-type: application/json
+
+###
+
+POST http://localhost:5000/api/interviewees
+content-type: application/json
+
+{
+  "name": "Piotr",
+  "surname": "Boszczyk",
+  "interviews": [
+    {
+      "date": "2012-04-23T18:25:43.511Z",
+      "result": "Accepted"
+    }]
+}
+
+###
+
+POST http://localhost:5000/api/interviewees
+content-type: application/json
+
+{
+  "name": "Jan",
+  "surname": "Kowalski",
+  "interviews": [
+    { 
+      "date": "2012-04-23T18:25:43.511Z",
+      "result": "Rejected"
+    }]
+}
+
+###
+
